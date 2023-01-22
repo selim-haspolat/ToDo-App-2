@@ -182,16 +182,16 @@ section span{
         font-size: 5rem;
         margin: 10px;
     }
-    .logo2{
-        width: 150px;
-        height: 150px;
-        border-radius: 35px;
-    }
     h1{
         font-size: 2rem;
     }
     #input{
         padding: 10px 5px;
+    }
+    .container{
+        padding: 1rem .2rem;
+        border-radius: 10px;
+        margin-bottom: 4.5rem;
     }
     section{
         padding: 12px;
