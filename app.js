@@ -73,10 +73,7 @@ container.addEventListener('click', (e) => {
         e.target.classList.toggle('fa-square')
         e.target.closest("section").classList.toggle('dark')
         e.target.nextElementSibling.classList.toggle('span-line')
-        console.log(e.target.closest('section').id);
-        console.log(todoList);
         todoList.map(x => {
-            console.log(x);
             x.id == e.target.closest('section').id && (x.completed = !x.completed)
         })
         localStorage.setItem('todoList',JSON.stringify(todoList))

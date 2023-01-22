@@ -172,54 +172,28 @@ section span{
         width: 100px;
         height: 100px;
         border-radius: 20px;
-        background-image: linear-gradient(to right, var(--purple), var(--dark-blue));
-        transform: rotate(-23deg);
-        margin: 2rem 0 4rem 0;
-        transform-origin: bottom right;
     }
     .logo2{
-        position: absolute;
         width: 100px;
         height: 100px;
         border-radius: 20px;
-        background-color: white;
-        transform: rotate(-7deg);
-        margin: 2rem 0 4rem 0;
-        transform-origin: bottom right;
     }
     .logo2 i{
         font-size: 5rem;
-        font-weight: 600;
-        color: var(--purple);
-        cursor:default;
         margin: 10px;
+    }
+    .logo2{
+        width: 150px;
+        height: 150px;
+        border-radius: 35px;
     }
     h1{
         font-size: 2rem;
-        color: white;
-        font-weight: 400;
-        margin: 0 0 2rem 0;
     }
     #input{
-        border: 1px solid black;
         padding: 10px 5px;
-        padding-left: 10px;
-        width: 70vw;
-        max-width: 800px;
-        border-radius: 5px;
-        margin-left: 33px;
-        margin-bottom: 1rem;
     }
     section{
-        display: flex;
-        justify-content: space-between;
         padding: 12px;
-        width: 70vw;
-        max-width: 800px;
-        min-width: 300px;
-        border-radius: 5px;
-        margin:.3rem 0;
-        background-color: white;
-        animation: myAnimationReverse .8s;
     }
 }
